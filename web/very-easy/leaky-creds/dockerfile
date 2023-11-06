@@ -1,0 +1,4 @@
+FROM nginx:latest
+
+# Copy the HTML index file to the web server root directory
+COPY app/index.html /usr/share/nginx/html/index.html
